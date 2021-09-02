@@ -1,0 +1,335 @@
+@font-face {
+    font-family: airalMT;
+    src: url(../fonts/ArialMT.ttf);
+}
+@font-face {
+    font-family: airalMT_B;
+    src: url(../fonts/ArialBoldMT.OTF);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main-wrapper {
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    background: #343B43;
+}
+.site-wrapper {
+    width: 650px;
+    margin: auto;
+}
+
+
+.header-top {
+    width: 100%;
+    height: 30px;
+    background: #242930;
+    box-shadow: 1px 1px 10px #000;
+}
+.left-herder-top {
+    font-size: 10px;
+    padding: 7px 20px;
+    color: #969a9f;
+}
+.left-herder-top a {
+    color: #969a9f;
+    transition: .3s all ease;
+}
+.left-herder-top a:hover {
+    color: #fff;
+    transition: .3s all ease;
+}
+.right-header-top span {
+    font-size: 10px;
+    color: #7c7f83;
+    margin-left: 7px;
+}
+.right-header-top span a {
+    color: #7c7f83;
+    transition: .3s all ease;
+    text-decoration: none;
+}
+.right-header-top span a:hover {
+    color: #fff;
+    transition: .3s all ease;
+}
+/* ........ */
+.header {
+    width: 100%;
+}
+.header-logo {
+    width: 100%;
+}
+.header-logo img,
+.header-txt {
+    padding: 40px 0px;
+}
+.header-txt {
+    text-align: right;
+    width: 100%;
+    color: #aeb1b4;
+}
+/* ................ */
+.banner {
+    background: #1fb5af;
+    border: 1px solid #1A1D21;
+    padding: 50px 45px;
+    height: 345px;
+    width: 100%;
+    box-shadow: 1px 1px 10px #000;
+}
+.banner-txt h4 {
+    font-size: 38px;
+    font-family: airalMT_B;
+    color: #fff;
+}
+.banner-txt span {
+    color: #bce9e7;
+    font-size: 14px;
+}
+.banner-txt .btn-coustom {
+    font-size: 14px;
+    color: #e26352;
+    padding: 20px 30px;
+    font-family: airalMT_B;
+    margin-top: 32px;
+    transition: .98 all ease;
+}
+.btn-coustom {
+    box-shadow: -2px -2px 10px rgba(255,255,255,1);
+}
+.btn-coustom:hover {
+    box-shadow: 2px 2px 10px rgba(255,255,255,1);
+    transform: scale(0.98);
+}
+.banner-icon {
+    margin-top: 10px;
+}
+.weekly-post {
+    border: 1px solid #000;
+}
+.lps-heading {
+    border-top: 1px solid #000;
+    border-left: 1px solid #000;
+    border-right: 1px solid #000;
+}
+.lps-list {
+    border-left: 1px solid #000;
+    border-right: 1px solid #000;
+    border-bottom: 1px solid #000;
+}
+.weekly-post {
+    height: 470px;
+    width: 100%;
+}
+.wp-heading, 
+.lps-heading {
+    padding: 19px 22px;
+    font-size: 16px;
+    line-height: 1;
+    color: #fff;
+    background: #E16351;
+    border-bottom: 1px solid #fff;
+}
+.wp-content {
+    width: 100%;
+    height: 138px;
+    border-bottom: 1px solid #B8B8B8;
+    background: #E6E6E6;
+}
+.wpc-icon {
+    padding: 10px 0px 0px 30px;
+    font-size: 60px;
+    text-align: center;
+    color: #1FB6AF;
+}
+.wpc-txt {
+    padding: 15px 0 10px 0;
+}
+.wpc-txt span:nth-child(1) {
+    font-size: 14px;
+    font-family: airalMT_B;
+    text-transform: capitalize;
+}
+.wpc-txt p {
+    font-size: 12px;
+    color: #9b9b9b;
+    margin: 0;
+}
+.wpc-txt ul {
+    color: #e26352;
+    margin-left: -17px;
+    font-size: 9px;
+}
+.wpc-txt ul li a {
+    font-size: 12px;
+    color: #e26352;
+    transition: .3s all ease;
+}
+.wpc-txt ul li a:hover {
+    color: #000;
+    transition: .3s all ease;
+}
+.lps-list {
+    position: relative;
+}
+.lps-list span {
+    width: 100%;
+    height: 40px;
+    display: block;
+}
+.lps-list  span:nth-child(odd) {
+    background: #E6E6E6;
+}
+.lps-list  span:nth-child(even) {
+    background: #DADADA;
+}
+.lps-list span:nth-child(odd), 
+.lps-list span:nth-child(even) {
+    padding: 10px 0 15px 30px;
+    font-size: 12px;
+    color: #e26352;
+    display: block;
+}
+.lps-list span::before {
+    content: '';
+    position: absolute;
+    width: 3px;
+    height: 3px;
+    border-radius: 50%;
+    background: #e26352;
+    left: 20px;
+    top: 23px;
+}
+.lps-list span:nth-child(1)::before {
+    top: 18px;
+}
+.lps-list span:nth-child(2)::before {
+    top: 58px;
+}
+.lps-list span:nth-child(3)::before {
+    top: 98px;
+}
+.lps-list span:nth-child(4)::before {
+    top: 138px;
+}
+.lps-list span:nth-child(5)::before {
+    top: 178px;
+}
+.lps-list span:nth-child(6)::before {
+    top: 218px;
+}
+.lps-social {
+    width: 100%;
+    height: 105px;
+    margin-top: 30px;
+}
+.lpss-1,
+.lpss-2 {
+    float: left;
+    width: 47%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 36px;
+    cursor: pointer;
+}
+.lpss-1 {
+    margin-right: 6%;
+    background: #318DFF;
+    transition: .3s all ease;
+}
+.lpss-2 {
+    background: #00BFFF;
+    transition: .3s all ease;
+}
+.lpss-1 a,
+.lpss-2 a {
+    color: #fff;
+    transition: .3s all ease;
+}
+.lpss-1:hover a,
+.lpss-2:hover a {
+    color: #fff;
+    transition: .3s all ease;
+    font-size: 40px;
+}
+.lpss-1:hover,
+.lpss-2:hover {
+    color: #fff;
+    transition: .3s all ease;
+    box-shadow: 2px 2px 10px #000;
+}
+.latest-project .wp-heading {
+    border-bottom: 0px;
+}
+.lp-product1 img,
+.lp-product2 img,
+.lp-product3 img,
+.lp-product4 img,
+.lp-product5 img,
+.lp-product6 img {
+    width: 100%;
+    height: 100%;
+    box-shadow: 1px 1px 10px #000;
+}
+.lp-product1,
+.lp-product4 {
+    padding: 0 5px 0 12px;
+
+}
+.lp-product2,
+.lp-product5 {
+    padding-right: 5px;
+}
+.lp-product3,
+.lp-product6 {
+    padding: 0 12px 0 0;
+}
+.lp-product1,
+.lp-product2,
+.lp-product3,
+.lp-product4,
+.lp-product5,
+.lp-product6 {
+    width: 100%;
+    height: 100%;
+}
+.f-left {
+    padding: 30px 0;
+}
+.f-right {
+    text-align: right;
+    padding: 30px 9px 30px 0;
+}
+.f-left span {
+    font-size: 11px;
+    color: #95a0a7;
+    line-height: 50px;
+}
+.f-left span a {
+    text-decoration: none;
+    color: #b2bcc3;
+}
+.f-left {
+	padding: 30px 0 30px 12px;
+}
+.f-right span a,
+.f-left span a {
+    color: #b2bcc3;
+    transition: .3s all ease;
+}
+.f-right span a:hover,
+.f-left span a:hover {
+    color: #fff;
+    transition: .3s all ease;
+}
+.f-right span {
+    font-size: 11px;
+    color: #95a0a7;
+}

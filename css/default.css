@@ -1,0 +1,52 @@
+/* Deafult Margin & Padding */
+.p-0 {
+	padding: 0;
+}
+.m-0 {
+	margin: 0;
+}
+.pt-5 {
+	padding-top: 5px!important;
+}
+.pl-0 {
+	padding-left: 0px;
+}
+.pr-0 {
+	padding-right: 0px;
+}
+.mb-40 {
+	margin-bottom: 40px;
+}
+
+
+
+
+
+/* Background Color */
+
+.gray-bg {
+	background: #f7f7fd;
+}
+.white-bg {
+	background: #fff;
+}
+.black-bg {
+	background: #343434;
+}
+.sky-bg {
+	background: #56b9d0;
+}
+/* Color */
+
+.white {
+	color: #fff;
+}
+.black {
+	color: #222;
+}
+.f-bg {
+	background: #4D616D;
+}
+.ft-border {
+    border-top: 1px solid #71767B;
+}

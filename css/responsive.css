@@ -1,0 +1,145 @@
+/* Extra small devices (portrait phones, less than 576px) COL-*/
+@media (max-width: 575.98px) {
+    .site-wrapper {
+        width: 100%;
+    }
+    .header-top {
+        display: none;
+    }
+    .header-txt {
+        text-align: left;
+        padding: 10px 0;
+    }
+    .header-logo img {
+        padding: 20px 0 10px 0;
+    }
+    .banner-icon {
+        display: none;
+    }
+    .banner {
+        margin-bottom: 20px;
+        padding: 20px 25px;
+        height: 222px;
+    }
+    .banner-txt h4 {
+        font-size: 18px;
+    }
+    .banner-txt span {
+        font-size: 12px;
+    }
+    .banner-txt .btn-coustom {
+        font-size: 10px;
+        padding: 10px 14px;
+        margin-top: 20px;
+    }
+    .weekly-post {
+        height: 455px;
+    }
+    .wp-heading, .lps-heading {
+        padding: 12px 16px;
+        font-size: 14px;
+    }
+    .wpc-icon {
+        display: none;
+    }
+    .wpc-txt {
+        padding: 15px;
+    }
+    .latest-post {
+        margin: 0;
+    }
+    .lp-sidebar {
+        margin: 20px 0;
+    }
+    .lps-social {
+        margin-top: 20px;
+    }
+    .lp-product1, .lp-product2, .lp-product3, .lp-product4, .lp-product5, .lp-product6 {
+        width: 96%;
+        padding-left: 12px;
+        padding-right: 0px;
+    }
+    .f-left {
+        padding: 20px 0 0px 0px;
+        text-align: center;
+    }
+    .f-right {
+        text-align: center;
+        padding: 0 0px 20px 0;
+    }
+    .f-right span {
+        font-size: 10px;
+    }
+
+}
+
+/* Small devices (landscape phones, 576px and up) COL-SM*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .site-wrapper {
+        width: 100%;
+    }
+    .right-header-top span {
+        font-size: 10px;
+        margin-left: 7px;
+    }
+    .left-herder-top {
+        padding: 7px 14px;
+    }
+    .banner-icon {
+        display: none;
+    }
+    .banner {
+        margin-bottom: 20px;
+        padding: 20px 25px;
+        height: 240px;
+    }
+    .banner-txt h4 {
+        font-size: 24px;
+    }
+    .banner-txt .btn-coustom {
+        font-size: 10px;
+        padding: 10px 14px;
+        margin-top: 20px;
+    }
+    .wpc-icon {
+        padding: 15px 0 0 0;
+    }
+    .lp-sidebar {
+        margin: 20px 0;
+    }
+    .lps-social {
+        margin-top: 20px;
+    }
+    .lp-product1, .lp-product2, .lp-product3, .lp-product4, .lp-product5, .lp-product6 {
+        width: 96%;
+        padding-left: 12px;
+        padding-right: 0px;
+    }
+    
+    .res-site-wrapper {
+        width: 520px;
+    }
+    .f-left {
+        padding: 30px 0 30px 0px;
+    }
+    .f-right {
+        padding: 30px 0px 30px 0;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) COL-MD*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .lp-sidebar {
+        margin: 0;
+    }
+}
+
+/* Large devices (desktops, 992px and up) COL-LG*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+}
+
+/* Extra large devices (large desktops, 1200px and up) C0L-XL*/
+@media (min-width: 1200px) {
+
+}
